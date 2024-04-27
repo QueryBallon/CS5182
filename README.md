@@ -4,7 +4,7 @@ This code is clone from [Pointnet_Pointnet2_pytorch](https://github.com/yanx27/P
 
 All training [Logs](log/part_seg/pointnet2_part_seg_msg) and [Model](log/part_seg/pointnet2_part_seg_msg/checkpoints) included, same directory for both PointNet and PointNet++.
 
-
+[Custom dataset](custom-dataset).
 
 
 # Pytorch Implementation of PointNet and PointNet++ 
