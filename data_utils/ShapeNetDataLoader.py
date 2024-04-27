@@ -144,7 +144,7 @@ class PartNormalDataset(Dataset):
         self.cache_size = 20000
 
         #
-        self.datapath = sorted(self.datapath, key=lambda x: (x[0] != 'Chair', x[0] == 'Chair' and '7b1ca7d234f56e8a9b2cde3f4a5b6789' not in x[1]))
+        # self.datapath = sorted(self.datapath, key=lambda x: (x[0] != 'Chair', x[0] == 'Chair' and '7b1ca7d234f56e8a9b2cde3f4a5b6789' not in x[1]))
 
     def __getitem__(self, index):
         if index in self.cache:
@@ -179,8 +179,8 @@ class PartNormalDataset(Dataset):
 
         point_set[:, 0:3] = pc_normalize(point_set[:, 0:3])
 
-        # choice = np.random.choice(len(seg), self.npoints, replace=True)
-        choice = np.arange(self.npoints)
+        choice = np.random.choice(len(seg), self.npoints, replace=True)
+        # choice = np.arange(self.npoints)
         # resample
         point_set = point_set[choice, :]
         seg = seg[choice]
