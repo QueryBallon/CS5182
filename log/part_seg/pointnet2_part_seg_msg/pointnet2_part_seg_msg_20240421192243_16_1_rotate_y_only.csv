@@ -1,0 +1,2 @@
+,Epoch,Train Accuracy,Test Accuracy,Class avg mIOU,Inctance avg mIOU,Traning Loss,Validation Loss
+0,1,0.8415630000134082,0.886027952657446,0.6063929743779434,0.7393294809497902,0.5917932430039281,"tensor(0.3015, device='cuda:0')"

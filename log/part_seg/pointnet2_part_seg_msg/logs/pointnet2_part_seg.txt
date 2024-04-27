@@ -1,0 +1,8 @@
+2024-04-13 01:25:03,586 - Model - INFO - PARAMETER ...
+2024-04-13 01:25:03,587 - Model - INFO - Namespace(model='pointnet2_part_seg', batch_size=16, epoch=300, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-13 01:25:03,697 - Model - INFO - The number of training data is: 13998
+2024-04-13 01:25:03,697 - Model - INFO - The number of test data is: 2874
+2024-04-13 01:29:21,869 - Model - INFO - PARAMETER ...
+2024-04-13 01:29:21,870 - Model - INFO - Namespace(model='pointnet2_part_seg', batch_size=16, epoch=300, learning_rate=0.001, gpu='0', optimizer='Adam', log_dir='pointnet2_part_seg_msg', decay_rate=0.0001, npoint=2048, normal=True, step_size=20, lr_decay=0.5)
+2024-04-13 01:29:21,995 - Model - INFO - The number of training data is: 13998
+2024-04-13 01:29:21,995 - Model - INFO - The number of test data is: 2874
